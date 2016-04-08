@@ -19,4 +19,7 @@ In the future, this module will provide a base class to help in the
 creation of `mastd_plugin`s, but for now, you can just subclass
 `threading.Thread`.
 """
+import os
 import web
+
+__version__ = "{}-0".format(os.environ["MAST_VERSION"])
