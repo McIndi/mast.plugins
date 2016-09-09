@@ -10,7 +10,7 @@ def read(fname):
 
 setup(
     name = "mast.plugins",
-    version = "2.1.0",
+    version = "2.2.0",
     author = "Clifford Bressette",
     author_email = "cliffordbressette@mcindi.com",
     description = ("A set of utilities to help with creating plugins for MAST."),
